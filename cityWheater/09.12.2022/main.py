@@ -1,7 +1,8 @@
 import requests
 
-# Set the API key for your OpenWeatherAPI account
-api_key = "ada1fdb05bf77ae3b41e5a76923d558f"
+# Set the A
+# PI key for your OpenWeatherAPI account
+api_key = "11eb278e065db2a543d346722cc6f29f"
 
 # Set the location for which you want to get the weather data
 city = input('Introdu numele orasului:')
