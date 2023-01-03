@@ -17,7 +17,7 @@ title_image = PhotoImage(file="applogo.png")
 
 title_label = Label(image=title_image)
 
-instructions_label = Label(text="Enter the product name and email below and click Submit to submit the form:")
+instructions_label = Label(text="Enter the product name and the email address and we will send you a raport about\n the products available on emag:")
 
 product_name_label = Label(text="Product Name:")
 product_name_var = StringVar()
@@ -43,7 +43,7 @@ def on_button_click():
     return
   
   if len(email) == 0:
-    error_label.config(text="Please enter an email.")
+    error_label.config(text="Please enter your email.")
     return
   elif len(email) > 50:
     error_label.config(text="The email must be 50 characters or less.")
