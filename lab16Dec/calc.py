@@ -71,7 +71,7 @@ if __name__ == "__main__":
     multiply = Button(gui, text=' * ', command=lambda: press("*"), height=1, width=7)
     multiply.grid(row=5, column=3)
 
-    power = Button(gui, text=' ^ ', command=lambda: press("^"), height=1, width=7)
+    power = Button(gui, text=' ** ', command=lambda: press("**"), height=1, width=7)
     power.grid(row=6, column=3)
 
     dot = Button(gui, text=' . ', command=lambda: press("."), height=1, width=7)
